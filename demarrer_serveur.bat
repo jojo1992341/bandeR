@@ -2,11 +2,11 @@
 setlocal
 cd /d "%~dp0"
 
-set "FFMPEG_BIN=C:\Users\Jonathan\AppData\Local\Microsoft\WinGet\Links\ffmpeg.exe"
-set "FFPROBE_BIN=C:\Users\Jonathan\AppData\Local\Microsoft\WinGet\Links\ffprobe.exe"
+set "FFMPEG_BIN=C:\chemin\vers\ffmpeg.exe"
+set "FFPROBE_BIN=C:\chemin\vers\ffprobe.exe"
 
-set "WHISPER_CPP_BIN=C:\Users\Jonathan\Downloads\whisper-bin-x64\Release\whisper-cli.exe"
-set "WHISPER_MODEL=C:\Users\Jonathan\Downloads\whisper-bin-x64\ggml-small-q8_0.bin"
+set "WHISPER_CPP_BIN=C:\chemin\vers\whisper-cli.exe"
+set "WHISPER_MODEL=C:\chemin\vers\modele.bin"
 
 echo Demarrage de Bande Rythmo Local Studio...
 echo Whisper CLI: %WHISPER_CPP_BIN%
