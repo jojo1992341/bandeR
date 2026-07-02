@@ -32,8 +32,8 @@ Ouvrir ensuite : http://localhost:8000
 L'application n'utilise aucun service cloud. Pour activer une transcription reelle avec `whisper.cpp` :
 
 ```powershell
-$env:WHISPER_CPP_BIN = "C:\\Users\\Jonathan\\Downloads\\whisper-bin-x64\\Release\\whisper-cli.exe"
-$env:WHISPER_MODEL = "C:\\Users\\Jonathan\\Downloads\\whisper-bin-x64\\ggml-small-q8_0.bin"
+$env:WHISPER_CPP_BIN = "C:\\chemin\\vers\\whisper-cli.exe"
+$env:WHISPER_MODEL = "C:\\chemin\\vers\\modele.bin"
 python -m app.main
 ```
 
